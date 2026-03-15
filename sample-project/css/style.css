@@ -1,0 +1,185 @@
+/* =====================================
+   GLOBAL STYLES
+   Author: Daniel
+   Used on: All pages
+===================================== */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* =====================================
+   HEADER CSS
+   Author: Daniel
+   Used on: All pages
+===================================== */
+
+header {
+    background-color: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* =====================================
+   NAVIGATION CSS
+   Author: Sonie
+   Used on: All pages
+===================================== */
+
+nav {
+    background-color: #222;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+
+/* =====================================
+   HERO SECTION (Homepage)
+   Author: Larry
+   Used on: index.html
+===================================== */
+
+.hero {
+    text-align: center;
+    padding: 80px;
+    background-color: #eee;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+
+/* =====================================
+   FEATURE SECTION
+   Author: Larry
+   Used on: index.html
+===================================== */
+
+.features {
+    padding: 40px;
+}
+
+.features ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* =====================================
+   MENU PAGE
+   Author: Oren
+   Used on: menu.html
+===================================== */
+
+.menu-container {
+    padding: 40px;
+}
+
+.menu-container ul {
+    max-width: 600px;
+    margin: auto;
+}
+
+.menu-container li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* =====================================
+   ABOUT PAGE
+   Author: Oren
+   Used on: about.html
+===================================== */
+
+.about-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+}
+
+
+/* =====================================
+   GALLERY PAGE
+   Author: Larry
+   Used on: gallery.html
+===================================== */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+
+/* =====================================
+   CONTACT PAGE
+   Author: Sonie
+   Used on: contact.html
+===================================== */
+
+.contact-container {
+    padding: 40px;
+}
+
+.contact-container ul {
+    max-width: 500px;
+    margin: auto;
+}
+
+
+/* =====================================
+   FOOTER CSS
+   Author: Daniel
+   Used on: All pages
+===================================== */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
